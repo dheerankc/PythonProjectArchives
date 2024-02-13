@@ -1,0 +1,43 @@
+import turtle
+
+turtle.speed(150)
+turtle.penup ()
+turtle.backward (100)
+turtle.pendown ()
+turtle.color ("blue")
+r = 50
+turtle.circle(r)
+turtle.penup()
+turtle.forward(110)
+turtle.pendown ()
+turtle.color ("Black")
+r = 50
+turtle.circle(r)
+turtle.penup()
+turtle.forward(110)
+turtle.pendown ()
+turtle.color ("red")
+r = 50
+turtle.circle(r)
+turtle.right(180)
+turtle.penup()
+turtle.forward (55)
+turtle.right(90)
+turtle.forward(50)
+turtle.pendown()
+turtle.color("green")
+turtle.left (90)
+l = 50
+turtle.circle (l)
+turtle.left (90)
+turtle.penup()
+turtle.forward (100)
+turtle.right (90)
+turtle.forward(110)
+turtle.right (90)
+turtle.forward(100)
+turtle.pendown()
+turtle.color("yellow")
+turtle.left(90)
+r = 50
+turtle.circle(r)
